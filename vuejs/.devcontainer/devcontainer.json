@@ -1,0 +1,12 @@
+{
+    "name": "Vuejs Template",
+    "dockerFile": "Dockerfile",
+    "appPort": 8080,
+    "extensions": [
+        "dbaeumer.vscode-eslint"
+    ],
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "postCreateCommand": "yarn install"
+}
